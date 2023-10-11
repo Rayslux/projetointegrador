@@ -23,7 +23,7 @@ body {
     font-family: 'Concert One', cursive;
     height: 100vh;
     width: 280px;
-    background-color: rgb(74, 109, 123);
+    background-color: rgb(57, 58, 57);
     position: fixed;
     overflow: hidden;
     left: -280px;
@@ -33,14 +33,14 @@ body {
 
 .box_menu .sidebar_titulo {
     position: absolute;
-    box-shadow: 0px 2px 4px rgb(41, 65, 75);
+    box-shadow: 0px 2px 4px rgb(15, 112, 52);
     height: 60px;
     width: 100%;
 }
 
 .box_menu .sidebar_titulo2 {
     position: absolute;
-    box-shadow: 0px 2px 4px rgb(41, 65, 75);
+    box-shadow: 0px 2px 4px rgb(15, 112, 52);
     height: 490px;
     width: 100%;
 }
@@ -68,7 +68,7 @@ body {
 }
 
 .sidebar_menu .menu li:hover {
-    background-color: rgb(199, 207, 193);
+    background-color: rgb(32, 145, 60);
 }
 
 .sidebar_menu .menu a {
@@ -91,11 +91,11 @@ body {
 }
 
 .sidebar_menu .menu2 li:hover {
-    background-color: rgb(199, 207, 193);
+    background-color: rgb(32, 145, 60);
 }
 
 .sidebar_menu .menu2 a {
-    color: rgb(245, 245, 245);
+    color: rgb(67, 224, 88);
     font-size: 18px;
     text-decoration: none;
 }
