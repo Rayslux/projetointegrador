@@ -184,16 +184,6 @@ header {
     justify-content: center;
     align-items: center;
 }
-a:link {
-    color: blue;
-    text-decoration: none;
-}
-
-/*Link já visitado*/
-a:visited {
-    color: blue;
-    text-decoration: none;
-}
 
 .conteudo {
     width: 80vw;

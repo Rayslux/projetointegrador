@@ -14,6 +14,7 @@ body {
 }
 
 .box_menu {
+    background-color: rgb(193, 207, 207);
     height: 100vh;
     width: 100%;
 }
@@ -128,10 +129,10 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    
+
     animation: gradient 10s ease alternate infinite;
-    background: linear-gradient(-45deg,#8DD1EE,#99d4ee,#aaddf3,#b6e2f5) no-repeat;
-    background-size:300% 300%;
+    background: linear-gradient(-45deg, #8DD1EE, #99d4ee, #aaddf3, #b6e2f5) no-repeat;
+    background-size: 300% 300%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,8 +142,8 @@ header {
 
 .cabeçario {
     height: 100px;
-    justify-content:center;
-   gap: 450px;
+    justify-content: center;
+    gap: 450px;
 }
 
 .cabeçario .title {
@@ -177,7 +178,7 @@ header {
 
 .container {
     width: 100vw;
-    height: 195%;
+    height: 100%;
 
     display: flex;
     flex-direction: row;
@@ -220,14 +221,18 @@ header {
     height: 405px;
 }
 
-@keyframes gradient{
-    0%{
-      background-position:0 50%;
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
     }
-    50%{
-      background-position:100% 50%;
+
+    50% {
+        background-position: 100% 50%;
     }
-    100%{
-      background-position:0 50%;
+
+    100% {
+        background-position: 0 50%;
     }
-  }
+}

@@ -170,17 +170,16 @@ header {
     color: rgb(0, 0, 0);
     text-align: justify;
 }
-
 a:link {
     color: blue;
     text-decoration: none;
-}
-
-/*Link já visitado*/
-a:visited {
+  }
+  
+  /*Link já visitado*/
+  a:visited {
     color: blue;
     text-decoration: none;
-}
+  }
 
 .ol {
     list-style-type: decimal
