@@ -162,7 +162,7 @@ header {
 .subtitulo {
     font-family: 'Concert One', cursive;
     font-size: 30px;
-    color: rgb(74, 117, 109);
+    color: rgb(42, 114, 18)
 }
 
 .link {
@@ -199,16 +199,17 @@ a:visited {
 .conteudo {
     width: 60vw;
     height: 10vh;
+    
 }
 
-.img1 {
-    background-image: url(https://s1.static.brasilescola.uol.com.br/be/conteudo/images/tecido-epitelial-5c4ae01996371.jpg);
-    width: 480px;
-    height: 600px;
-    margin-left: 450px;
-    margin-inline-end: 40px;
-
+.centralizador{
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .img2 {
     background-image: url(https://static.biologianet.com/conteudo/images/o-neuronio-uma-celula-tecido-nervoso-responsavel-pela-transmissao-impulso-nervoso-53fe4f0c38729.jpg);
@@ -237,18 +238,43 @@ a:visited {
 .card {
     height: 500px;
     width: 800px;
-    background-color: rgb(203, 229, 255);
+    background-color: rgb(184, 233, 148);
     border-radius: 10px;
-    overflow: hidden;
-    z-index: 1;
+    display: flex;
 }
+.metade1{
+    height: 500px;
+    width: 475px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.metade2{
+    height: 500px;
+    width: 325px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img1 {
+    background-image: url(https://s1.static.brasilescola.uol.com.br/be/conteudo/images/tecido-epitelial-5c4ae01996371.jpg);
+    width: 240px;
+    height: 300px;
+    
+    background-size: cover;
 
-.text{
-    margin-top: 5%;
-    max-width: 5%;
-    width: 80px;
-    height: 40px;
-    background-color: #18886c;
+}
+.texto_metade1{
+    height: 460px;
+    width: 435px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 19px;
+    color: black;
+    text-align: justify;
 }
 
 .informacao{
@@ -258,28 +284,6 @@ a:visited {
     height: 10px;
 }
 
-.arrasteaq{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    margin-left: 5%;
-    margin-top: 5%;
-    background-color: rgb(52, 54, 66);
-    height: 20px;
-    width: 150px;
-
-    &:hover{
-        background-color: rgb(31, 74, 214);
-    }
-}
-
-.link a {
-    text-decoration: solid;
-    color: black;
-    
-}
 
 @keyframes gradient {
     0% {
