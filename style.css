@@ -15,6 +15,7 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+/*Inicio menu*/
 .box_menu {
     background-color: rgb(255, 255, 255);
     height: 100vh;
@@ -97,7 +98,7 @@ body {
 }
 
 .sidebar_menu .menu2 a {
-    color: rgb(67, 224, 88);
+    color: rgb(245, 245, 245);
     font-size: 18px;
     text-decoration: none;
 }
@@ -127,13 +128,15 @@ body {
     left: -10px;
 }
 
+/*Inicio menu*/
+
+/*Inicio menu*/
 header {
     position: fixed;
     top: 0;
     width: 100%;
-
     animation: gradient 5s ease alternate infinite;
-    background: linear-gradient(-45deg,#18886c,#67ce75 , #65c76d ,#4fe05b ) no-repeat;
+    background: linear-gradient(-45deg, #18886c, #67ce75, #65c76d, #4fe05b) no-repeat;
     background-size: 300% 300%;
     display: flex;
     align-items: center;
@@ -154,11 +157,50 @@ header {
     color: rgb(255, 255, 255);
 }
 
+/*Final menu*/
+
+/*Configurações de texto e links*/
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_metade1 {
+    height: 200px;
+}
+
+.container_metade2 {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.centralizador {
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .texto {
     font-family: 'Ysabeau Infant', sans-serif;
     font-size: 25px;
     color: black;
     text-align: justify;
+}
+
+.conteudo {
+    width: 60vw;
+    height: 10vh;
 }
 
 .subtitulo {
@@ -170,17 +212,25 @@ header {
 .link {
     font-family: 'Ysabeau Infant', sans-serif;
     font-size: 25px;
-    color: rgb(11, 8, 182);
+    color: rgb(57, 182, 8);
     text-align: justify;
 }
+
+.link_referencia{
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 24px;
+    color: rgb(57, 182, 8);
+    text-align: justify;
+}
+
 a:link {
-    color: blue;
+    color: rgb(57, 182, 8);
     text-decoration: none;
 }
 
 /*Link já visitado*/
 a:visited {
-    color: blue;
+    color: rgb(57, 182, 8);
     text-decoration: none;
 }
 
@@ -188,20 +238,14 @@ a:visited {
     list-style-type: decimal
 }
 
-.container {
-    width: 100vw;
-    height: 100%;
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
+/*Configurações de texto e links*/
 
-.conteudo {
-    width: 60vw;
-    height: 10vh;
-    
+/*Inicio imagens*/
+.img1 {
+    background-image: url(https://s1.static.brasilescola.uol.com.br/be/conteudo/images/tecido-epitelial-5c4ae01996371.jpg);
+    width: 240px;
+    height: 300px;
+    background-size: cover;
 }
 
 .img2 {
@@ -228,32 +272,35 @@ a:visited {
     height: 405px;
 }
 
-.img6{
+.img6 {
     background-image: url(https://static.mundoeducacao.uol.com.br/mundoeducacao/2020/10/celula-animal.jpg);
     width: 600px;
     height: 519px;
 }
 
-.img7{
+.img7 {
     background-image: url(https://static.todamateria.com.br/upload/ce/lu/celulaanimal-0.jpg?auto_optimize=low);
     width: 685px;
     height: 655px;
 }
 
-.img8{
+.img8 {
     background-image: url(https://static.todamateria.com.br/upload/55/14/5514b71582eb7-celulas-procariontes-inserir-imagem.jpg);
     width: 800px;
     height: 569px;
 }
-    
-.img9{
+
+.img9 {
     background-image: url(/imagens/celulavegetal.png);
     background-position: center;
     background-size: cover;
     width: 1040px;
     height: 558px;
 }
-/*card*/
+
+/*Final imagens*/
+
+/*card 1*/
 .card {
     height: 500px;
     width: 800px;
@@ -261,15 +308,8 @@ a:visited {
     border-radius: 10px;
     display: flex;
 }
-.card2{
-    height: 500px;
-    width: 800px;
-    background-color: rgb(184, 233, 148);
-    border-radius: 10px;
-    
-}
 
-.metade1{
+.metade1 {
     height: 500px;
     width: 475px;
     background-position: center;
@@ -278,7 +318,17 @@ a:visited {
     align-items: center;
     justify-content: flex-end;
 }
-.metade2{
+
+.texto_metade1 {
+    height: 460px;
+    width: 435px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 19px;
+    color: black;
+    text-align: justify;
+}
+
+.metade2 {
     height: 500px;
     width: 325px;
     background-position: center;
@@ -288,87 +338,48 @@ a:visited {
     justify-content: center;
 }
 
-.centralizador{
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.img1 {
-    background-image: url(https://s1.static.brasilescola.uol.com.br/be/conteudo/images/tecido-epitelial-5c4ae01996371.jpg);
-    width: 240px;
-    height: 300px;
-    
-    background-size: cover;
+/*final card 1*/
 
+/*card 2*/
+.card2 {
+    height: 900px;
+    width: 800px;
+    background-color: rgb(184, 233, 148);
+    border-radius: 10px;
+    flex-direction: column;
 }
-.texto_metade1{
-    height: 460px;
-    width: 435px;
+
+.texto_card2 {
+    height: 400px;
+    width: 700px;
     font-family: 'Ysabeau Infant', sans-serif;
     font-size: 19px;
     color: black;
     text-align: justify;
 }
 
-.informacao{
-    margin-top: 5%;
-    max-width: 40vw;
-    width: 10px;
-    height: 10px;
-}
-
-.leti{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.card2_metade1 {
     height: 400px;
-    width: 	424px;
-    background-color: #8DD1EE;
-    border-radius: 5%;
-}
-.ray{
+    width: 800px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    height: 400px;
-    width: 	424px;
-    background-color: #8DD1EE;
-    border-radius: 5%;
-}
-.fotoleti{
-    background-image: url(/imagens/leticia.png);
-    background-size: cover;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-   
-}
-.fotoray{
-    background-image: url(/imagens/ray.png);
-    background-size: cover;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-   
+    justify-content: center;
 }
 
-
-
-.container_metade1{
-height: 200px;
-}
-.container_metade2{
-    width: 100vw;
-    height: 100%;
+.card2_metade2 {
+    height: 500px;
+    width: 800px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
+
+/*final card 2*/
+
+
+
+
+
 
 @keyframes gradient {
     0% {
