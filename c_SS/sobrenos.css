@@ -12,7 +12,7 @@
 body {
     background-color: rgb(255, 255, 255);
 }
-
+/*Inicio menu*/
 .box_menu {
     height: 51vh;
     width: 100%;
@@ -94,7 +94,7 @@ body {
 }
 
 .sidebar_menu .menu2 a {
-    color: rgb(67, 224, 88);
+    color: rgb(245, 245, 245);
     font-size: 18px;
     text-decoration: none;
 }
@@ -123,12 +123,13 @@ body {
 #check:checked~.sidebar_menu {
     left: -10px;
 }
+/*Final menu*/
 
+/*Inicio cabeçario*/
 header {
     position: fixed;
     top: 0;
     width: 100%;
-
     animation: gradient 10s ease alternate infinite;
     background: linear-gradient(-45deg,#18886c,#67ce75 , #65c76d ,#4fe05b ) no-repeat;
     background-size: 300% 300%;
@@ -150,12 +151,14 @@ header {
     font-family: 'Lobster Two', cursive;
     color: rgb(255, 255, 255);
 }
+/*Inicio cabeçario*/
 
+/*Configurações de texto e links*/
 .texto {
     font-family: 'Ysabeau Infant', sans-serif;
-    font-size: 25px;
+    font-size: 16px;
     color: black;
-    text-align: justify;
+    text-align: center;
 }
 
 .subtitulo {
@@ -166,30 +169,29 @@ header {
 
 .link {
     font-family: 'Ysabeau Infant', sans-serif;
-    font-size: 25px;
-    color: rgb(11, 8, 182);
+    font-size: 15px;
+    color: rgb(57, 182, 8);
     text-align: justify;
 }
 
 a:link {
-    color: blue;
+    color: rgb(57, 182, 8);
     text-decoration: none;
 }
 
 /*Link já visitado*/
 a:visited {
-    color: blue;
+    color: rgb(57, 182, 8);
     text-decoration: none;
 }
 
 .ol {
     list-style-type: decimal
 }
-
+/*Final Configurações de texto e links*/
 .container {
     width: 100vw;
     height: 195%;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -202,28 +204,50 @@ a:visited {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center;  
+}
+
+.container_metade1{
+    height: 200px;
+}
+
+.container_metade2{
+     width: 100vw;
+     height: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+}
+
+/*Inicio Sobre Nós*/
+
+.card_nos{
     
+    height: 400px;
+    width: 	424px;
+    background-color:rgb(184, 233, 148);
+    border-radius: 5%;
 }
-.leti{
+.nos_metade1{
+    width: 	424px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 400px;
-    width: 	424px;
-    background-color: rgb(115, 211, 139);
-    border-radius: 5%;
 }
-.ray{
+.nos_metade2{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 400px;
     width: 	424px;
-    background-color: rgb(115, 211, 139);
-    border-radius: 5%;
+    height: 100px;
+}
+.texto_nos{
+    width: 	400px;
+    height: 100px;
 }
 .fotoleti{
     background-image: url(/imagens/leticia.png);
@@ -241,21 +265,9 @@ a:visited {
     height: 200px;
    
 }
+/*Final Sobre Nós*/
 
 
-
-.container_metade1{
-height: 200px;
-}
-.container_metade2{
-    width: 100vw;
-    height: 100%;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
 
 @keyframes gradient {
     0% {
